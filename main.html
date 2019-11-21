@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+	<input id="input1" type="text" name="input1"  placeholder="entrez mot">
+	<br>
+	<br>
+	<br>
+	<br>
+	<input id="input2" type="button " value="calculer" onclick= "bienveune();">
+	<br>
+	<br>
+	<br>
+    <p id = "input3"  > </p>
+
+</div>
+
+	<script type="text/javascript">
+		function bienveune (){
+
+        var M = document.getElementById ("input1").value ;
+       document.getElementById ("input3").innerHTML = M.length; 
+	}	
+	</script>
+
+</body>
+</html>
